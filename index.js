@@ -183,14 +183,4 @@ app.delete("/user/delete",(req,res)=>{
         res.send(err);
     }
 })
-// try{
-//     connection.query(q,[data] ,(err,result)=>{
-//         if(err) throw err;
-//         console.log(result);
 
-    
-// }catch(err){
-//     console.log(err);
-// }
-
-//connection.end();
